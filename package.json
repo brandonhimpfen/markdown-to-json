@@ -1,0 +1,30 @@
+{
+  "name": "@brandonhimpfen/markdown-to-json",
+  "version": "1.0.0",
+  "description": "Convert Markdown files to JSON format",
+  "main": "markdownToJson.js",
+  "bin": {
+    "markdown-to-json": "cli.js"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandonhimpfen/markdown-to-json.git"
+  },
+  "keywords": [
+    "markdown",
+    "json",
+    "convert"
+  ],
+  "author": "Brandon Himpfen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brandonhimpfen/markdown-to-json/issues"
+  },
+  "homepage": "https://github.com/brandonhimpfen/markdown-to-json#readme",
+  "dependencies": {
+    "marked": "^5.1.0"
+  }
+}
